@@ -10,18 +10,20 @@ This repository contains a FastAPI-based backend that integrates machine learnin
 
 ## My Contributions
 
-My work on PEN Match focused on backend and machine-learning engineering within a production-oriented government application.
+I independently designed and implemented **PEN Match API V2 end-to-end** for the Government of British Columbia, covering the backend architecture, machine-learning workflows, AI integration, cloud infrastructure, and deployment.
 
-Key areas of contribution included:
+Key areas of ownership included:
 
-- Developed and improved backend components for the **PEN matching workflow**.
-- Worked with REST API services and data-processing pipelines supporting student record matching.
-- Contributed to machine-learning-based matching and evaluation workflows.
-- Integrated application components within an existing production-oriented backend architecture.
-- Worked with structured data processing, API integration, testing, and evaluation.
-- Collaborated within an existing engineering codebase and deployment workflow.
+- Designed the overall **system architecture** and modular backend structure.
+- Built the **FastAPI backend**, including API endpoints, request/response validation, configuration, logging, and service integration.
+- Developed the **PEN matching and evaluation workflows** for processing and assessing student-record matching results.
+- Implemented **Azure OpenAI, Azure AI Search, LangChain, and LangGraph** components for retrieval and agent-based AI workflows.
+- Integrated cloud services including **Azure Cosmos DB, Blob Storage, Key Vault, and Document Intelligence**.
+- Built evaluation and model-improvement components, including prompt testing and fine-tuning-related workflows.
+- Containerized the application using **Docker** and implemented Azure infrastructure using **Terraform**.
+- Set up **GitHub Actions CI/CD workflows** to support automated build and deployment processes.
 
-For a more detailed breakdown, see [CONTRIBUTIONS.md](CONTRIBUTIONS.md).
+The project reflects end-to-end ownership of a production-oriented ML/AI system, from application and model integration to cloud infrastructure and deployment.
 
 ---
 
